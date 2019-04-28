@@ -1,0 +1,31 @@
+{
+  "title": "",
+  "description": "",
+  "jobBenefits": "",
+  "skills": "",
+  "qualifications": "",
+  "experienceRequirements": "",
+  "datePosted": "",
+  "validThrough": "",
+  "employmentType": "",
+  "hiringOrganization": {
+    "name": ""
+  },
+  "jobLocation": {
+    "address": {
+      "addressRegion": "",
+      "addressCountry": "",
+      "addressLocality": ""
+    }
+  },
+  "baseSalary": {
+    "currency": "",
+    "minValue": 0,
+    "maxValue": 0,
+    "unitText": "",
+    "value": ""
+  },
+  "occupationalCategory": [
+
+  ]
+}

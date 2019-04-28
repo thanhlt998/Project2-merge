@@ -1,0 +1,493 @@
+{
+  "An Giang": [
+    "An Giang",
+    "an giang",
+    "AN GIANG",
+    "Việc làm An Giang"
+  ],
+  "Bà Rịa - Vũng Tàu": [
+    "Bà Rịa - Vũng Tàu",
+    "Ba Ria - Vung Tau",
+    "bà rịa - vũng tàu",
+    "BÀ RỊA - VŨNG TÀU",
+    "Việc làm Bà Rịa - Vũng Tàu",
+    "Vũng Tàu"
+  ],
+  "Bắc Giang": [
+    "Bắc Giang",
+    "Bac Gianh",
+    "bắc giang",
+    "BẮC GIANG",
+    "Việc làm Bắc Giang"
+  ],
+  "Bắc Kạn": [
+    "Bắc Kạn",
+    "Bac Kan",
+    "bắc kạn",
+    "BẮC KẠN",
+    "Việc làm Bắc Kạn"
+  ],
+  "Bạc Liêu": [
+    "Bạc Liêu",
+    "Bac Lieu",
+    "bạc liêu",
+    "BẠC LIÊU",
+    "Việc làm Bạc Liêu"
+  ],
+  "Bắc Ninh": [
+    "Bắc Ninh",
+    "Bac Ninh",
+    "bắc ninh",
+    "BẮC NINH",
+    "Việc làm Bắc Ninh"
+  ],
+  "Bến Tre": [
+    "Bến Tre",
+    "Ben Tre",
+    "bến tre",
+    "BẾN TRE",
+    "Việc làm Bến Tre"
+  ],
+  "Bình Định": [
+    "Bình Định",
+    "Binh Dinh",
+    "bình định",
+    "BÌNH ĐỊNH",
+    "Việc làm Bình Định"
+  ],
+  "Bình Dương": [
+    "Bình Dương",
+    "Binh Duong",
+    "bình dương",
+    "BÌNH DƯƠNG",
+    "Việc làm Bình Dương"
+  ],
+  "Bình Phước": [
+    "Bình Phước",
+    "Binh Phuoc",
+    "bình phước",
+    "BÌNH PHƯỚC",
+    "Việc làm Bình Phước"
+  ],
+  "Bình Thuận": [
+    "Bình Thuận",
+    "Binh Thuan",
+    "bình thuận",
+    "BÌNH THUẬN",
+    "Việc làm Bình Thuận"
+  ],
+  "Cà Mau": [
+    "Cà Mau",
+    "Ca Mau",
+    "cà mau",
+    "CÀ MAU",
+    "Việc làm Cà Mau"
+  ],
+  "Cao Bằng": [
+    "Cao Bằng",
+    "Cao Bang",
+    "cao bằng",
+    "CAO BẰNG",
+    "Việc làm Cao Bằng"
+  ],
+  "Đắk Lắk": [
+    "Đắk Lắk",
+    "đắk lắk",
+    "ĐẮK LẮK",
+    "Việc làm Đắk Lắk",
+    "Dak Lak",
+    "Đắc Lắc"
+  ],
+  "Đắk Nông": [
+    "Đắk Nông",
+    "Dak Nong",
+    "đắk nông",
+    "ĐẮK NÔNG",
+    "Việc làm Đắk Nông",
+    "Dak Nông"
+  ],
+  "Điện Biên": [
+    "Điện Biên",
+    "Dien Bien",
+    "điện biên",
+    "ĐIỆN BIÊN",
+    "Việc làm Điện Biên"
+  ],
+  "Đồng Nai": [
+    "Đồng Nai",
+    "Dong Nai",
+    "đồng nai",
+    "ĐỒNG NAI",
+    "Việc làm Đồng Nai"
+  ],
+  "Đồng Tháp": [
+    "Đồng Tháp",
+    "Dong Thap",
+    "đồng tháp",
+    "ĐỒNG THÁP",
+    "Việc làm Đồng Tháp"
+  ],
+  "Gia Lai": [
+    "Gia Lai",
+    "gia lai",
+    "GIA LAI",
+    "Việc làm Gia Lai"
+  ],
+  "Hà Giang": [
+    "Hà Giang",
+    "Ha Giang",
+    "hà giang",
+    "HÀ GIANG",
+    "Việc làm Hà Giang"
+  ],
+  "Hà Nam": [
+    "Hà Nam",
+    "Ha Nam",
+    "hà nam",
+    "HÀ NAM",
+    "Việc làm Hà Nam"
+  ],
+  "Hà Tĩnh": [
+    "Hà Tĩnh",
+    "Ha Tinh",
+    "hà tĩnh",
+    "HÀ TĨNH",
+    "Việc làm Hà Tĩnh"
+  ],
+  "Hải Dương": [
+    "Hải Dương",
+    "Hai Duong",
+    "hải dương",
+    "HẢI DƯƠNG",
+    "Việc làm Hải Dương"
+  ],
+  "Hậu Giang": [
+    "Hậu Giang",
+    "Hau Giang",
+    "hậu giang",
+    "HẬU GIANG",
+    "Việc làm Hậu Giang"
+  ],
+  "Hòa Bình": [
+    "Hòa Bình",
+    "Hoa Binh",
+    "hòa bình",
+    "HÒA BÌNH",
+    "Việc làm Hòa Bình"
+  ],
+  "Hưng Yên": [
+    "Hưng Yên",
+    "Hung Yen",
+    "hưng yên",
+    "HƯNG YÊN",
+    "Việc làm Hưng Yên"
+  ],
+  "Khánh Hòa": [
+    "Khánh Hòa",
+    "Khanh Hoa",
+    "khánh hòa",
+    "KHÁNH HÒA",
+    "Việc làm Khánh Hòa"
+  ],
+  "Kiên Giang": [
+    "Kiên Giang",
+    "Kien Giang",
+    "kiên giang",
+    "KIÊN GIANG",
+    "Việc làm Kiên Giang"
+  ],
+  "Kon Tum": [
+    "Kon Tum",
+    "kon tum",
+    "KON TUM",
+    "Việc làm Kon Tum"
+  ],
+  "Lai Châu": [
+    "Lai Châu",
+    "Lai Chau",
+    "lai châu",
+    "LAI CHÂU",
+    "Việc làm Lai Châu"
+  ],
+  "Lâm Đồng": [
+    "Lâm Đồng",
+    "Lam Dong",
+    "lâm đồng",
+    "LÂM ĐỒNG",
+    "Việc làm Lâm Đồng"
+  ],
+  "Lạng Sơn": [
+    "Lạng Sơn",
+    "Lang Son",
+    "lạng sơn",
+    "LẠNG SƠN",
+    "Việc làm Lạng Sơn"
+  ],
+  "Lào Cai": [
+    "Lào Cai",
+    "lào cai",
+    "LÀO CAI",
+    "Việc làm Lào Cai"
+  ],
+  "Long An": [
+    "Long An",
+    "Long An",
+    "long an",
+    "LONG AN",
+    "Việc làm Long An"
+  ],
+  "Nam Định": [
+    "Nam Định",
+    "Nam Dinh",
+    "nam định",
+    "NAM ĐỊNH",
+    "Việc làm Nam Định"
+  ],
+  "Nghệ An": [
+    "Nghệ An",
+    "Nghe An",
+    "nghệ an",
+    "NGHỆ AN",
+    "Việc làm Nghệ An"
+  ],
+  "Ninh Bình": [
+    "Ninh Bình",
+    "Ninh Binh",
+    "ninh bình",
+    "NINH BÌNH",
+    "Việc làm Ninh Bình"
+  ],
+  "Ninh Thuận": [
+    "Ninh Thuận",
+    "Ninh Thuan",
+    "ninh thuận",
+    "NINH THUẬN",
+    "Việc làm Ninh Thuận"
+  ],
+  "Phú Thọ": [
+    "Phú Thọ",
+    "Phu Tho",
+    "phú thọ",
+    "PHÚ THỌ",
+    "Việc làm Phú Thọ"
+  ],
+  "Quảng Bình": [
+    "Quảng Bình",
+    "Quang Binh",
+    "quảng bình",
+    "QUẢNG BÌNH",
+    "Việc làm Quảng Bình"
+  ],
+  "Quảng Nam": [
+    "Quảng Nam",
+    "Quang Nam",
+    "quảng nam",
+    "QUẢNG NAM",
+    "Việc làm Quảng Nam"
+  ],
+  "Quảng Ngãi": [
+    "Quảng Ngãi",
+    "Quang Ngai",
+    "quảng ngãi",
+    "QUẢNG NGÃI",
+    "Việc làm Quảng Ngãi"
+  ],
+  "Quảng Ninh": [
+    "Quảng Ninh",
+    "Quang Ninh",
+    "quảng ninh",
+    "QUẢNG NINH",
+    "Việc làm Quảng Ninh"
+  ],
+  "Quảng Trị": [
+    "Quảng Trị",
+    "Quang Tri",
+    "quảng trị",
+    "QUẢNG TRỊ",
+    "Việc làm Quảng Trị"
+  ],
+  "Sóc Trăng": [
+    "Sóc Trăng",
+    "Soc Trang",
+    "sóc trăng",
+    "SÓC TRĂNG",
+    "Việc làm Sóc Trăng"
+  ],
+  "Sơn La": [
+    "Sơn La",
+    "Son La",
+    "sơn la",
+    "SƠN LA",
+    "Việc làm Sơn La"
+  ],
+  "Tây Ninh": [
+    "Tây Ninh",
+    "Tay Ninh",
+    "tây ninh",
+    "TÂY NINH",
+    "Việc làm Tây Ninh"
+  ],
+  "Thái Bình": [
+    "Thái Bình",
+    "Thai Binh",
+    "thái bình",
+    "THÁI BÌNH",
+    "Việc làm Thái Bình"
+  ],
+  "Thái Nguyên": [
+    "Thái Nguyên",
+    "Thai Nguyen",
+    "thái nguyên",
+    "THÁI NGUYÊN",
+    "Việc làm Thái Nguyên"
+  ],
+  "Thanh Hóa": [
+    "Thanh Hóa",
+    "Thanh Hoa",
+    "thanh hóa",
+    "THANH HÓA",
+    "Việc làm Thanh Hóa"
+  ],
+  "Thừa Thiên Huế": [
+    "Thừa Thiên Huế",
+    "Thua Thien Hue",
+    "thừa thiên huế",
+    "THỪA THIÊN HUẾ",
+    "Việc làm Thừa Thiên Huế",
+    "Thừa Thiên- Huế"
+  ],
+  "Tiền Giang": [
+    "Tiền Giang",
+    "Tien Giang",
+    "tiền giang",
+    "TIỀN GIANG",
+    "Việc làm Tiền Giang"
+  ],
+  "Trà Vinh": [
+    "Trà Vinh",
+    "Tra Vinh",
+    "trà vinh",
+    "TRÀ VINH",
+    "Việc làm Trà Vinh"
+  ],
+  "Tuyên Quang": [
+    "Tuyên Quang",
+    "Tuyen Quang",
+    "tuyên quang",
+    "TUYÊN QUANG",
+    "Việc làm Tuyên Quang"
+  ],
+  "Vĩnh Long": [
+    "Vĩnh Long",
+    "Vinh Long",
+    "vĩnh long",
+    "VĨNH LONG",
+    "Việc làm Vĩnh Long"
+  ],
+  "Vĩnh Phúc": [
+    "Vĩnh Phúc",
+    "Vinh Phuc",
+    "vĩnh phúc",
+    "VĨNH PHÚC",
+    "Việc làm Vĩnh Phúc"
+  ],
+  "Yên Bái": [
+    "Yên Bái",
+    "Yen Bai",
+    "yên bái",
+    "YÊN BÁI",
+    "Việc làm Yên Bái"
+  ],
+  "Phú Yên": [
+    "Phú Yên",
+    "Phu Yen",
+    "phú yên",
+    "PHÚ YÊN",
+    "Việc làm Phú Yên"
+  ],
+  "Cần Thơ": [
+    "Cần Thơ",
+    "Can Tho",
+    "cần thơ",
+    "CẦN THƠ",
+    "Việc làm Cần Thơ"
+  ],
+  "Đà Nẵng": [
+    "Đà Nẵng",
+    "Da Nang",
+    "đà nẵng",
+    "ĐÀ NẴNG",
+    "Việc làm Đà Nẵng"
+  ],
+  "Hải Phòng": [
+    "Hải Phòng",
+    "Hai Phong",
+    "hải phòng",
+    "HẢI PHÒNG",
+    "Việc làm Hải Phòng"
+  ],
+  "Hà Nội": [
+    "Hà Nội",
+    "Ha Noi",
+    "hà nội",
+    "HÀ NỘI",
+    "Việc làm Hà Nội",
+    "HN",
+    "hn",
+    "Hà Tây",
+    "Ha Tay",
+    "Hà Đông",
+    "Ha Dong"
+  ],
+  "Hồ Chí Minh": [
+    "Hồ Chí Minh",
+    "Ho Chi Minh",
+    "hồ chí minh",
+    "HỒ CHÍ MINH",
+    "Việc làm Hồ Chí Minh",
+    "Việc làm TP.HCM",
+    "TPHCM",
+    "TP.HCM",
+    "TP HCM",
+    "TP-HCM",
+    "tphcm",
+    "HCM",
+    "hcm"
+  ],
+  "Nam Trung Bộ": [
+    "Nam Trung Bộ",
+    "Nam Trung Bo",
+    "KV Nam Trung Bộ"
+  ],
+  "Bắc Trung Bộ": [
+    "Bắc Trung Bộ",
+    "Bac Trung Bo",
+    "KV Bắc Trung Bộ"
+  ],
+  "Tây Nguyên": [
+    "Tây Nguyên",
+    "Tay Nguyen",
+    "KV Tây Nguyên"
+  ],
+  "Toàn quốc": [
+    "Toàn quốc",
+    "toàn quốc",
+    "Khác"
+  ],
+  "Đông Nam Bộ": [
+    "KV Đông Nam Bộ"
+  ],
+  "Bắc Bộ": [
+    "Bắc Bộ",
+    "Miền Bắc"
+  ],
+  "Trung Bộ": [
+    "Trung Bộ",
+    "Miền Trung"
+  ],
+  "Nam Bộ": [
+    "Nam Bộ",
+    "Miền Nam",
+    "Đồng Bằng Sông Cửu Long"
+  ]
+}

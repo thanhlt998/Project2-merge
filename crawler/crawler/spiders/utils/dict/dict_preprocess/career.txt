@@ -1,0 +1,603 @@
+Quản trị kinh doanh
+Bán hàng
+Marketing-PR
+Khách sạn-Nhà hàng
+Kế toán-Kiểm toán
+Thực phẩm-Đồ uống
+Xây dựng
+Hành chính-Văn phòng
+Nhân sự
+An ninh-Bảo vệ
+Báo chí-Truyền hình
+Bảo hiểm
+Biên-Phiên dịch
+Bưu chính
+Chứng khoán- Vàng
+Cơ khí-Chế tạo
+Công nghệ cao
+Công nghiệp
+Dầu khí-Hóa chất
+Dệt may - Da giày
+Dịch vụ
+Du lịch
+Điện tử viễn thông
+Điện-Điện tử-Điện lạnh
+Game
+Giáo dục-Đào tạo
+Hàng gia dụng
+Hàng hải
+Hàng không
+Hoá học-Sinh học
+Hoạch định-Dự án
+In ấn-Xuất bản
+IT phần cứng/mạng
+IT phần mềm
+KD bất động sản
+Kho vận-Vật tư
+Kiến trúc-TK nội thất
+Kỹ thuật
+Kỹ thuật ứng dụng
+Ngân hàng
+Ngành nghề khác
+Nghệ thuật - Điện ảnh
+Ngoại thương-Xuất nhập khẩu
+Nông-Lâm-Ngư nghiệp
+Ô tô - Xe máy
+Pháp lý-Luật
+Quan hệ đối ngoại
+Spa-Mỹ phẩm-Trang sức
+Tài chính-Đầu tư
+Thiết kế đồ hoạ web
+Thiết kế-Mỹ thuật
+Thời trang
+Thủ công mỹ nghệ
+Thư ký-Trợ lý
+Thương mại điện tử
+Tiếp thị-Quảng cáo
+Tổ chức sự kiện-Quà tặng
+Tư vấn
+Vận tải
+Y tế-Dược
+Hành chính-Văn phòng
+Nhân viên kinh doanh
+Kế toán-Kiểm toán
+Bán hàng
+Tư vấn
+Kỹ thuật
+Xây dựng
+Marketing-PR
+Điện-Điện tử-Điện lạnh
+An ninh-Bảo vệ
+Báo chí-Truyền hình
+Bảo hiểm
+Biên-Phiên dịch
+Bưu chính
+Chứng khoán- Vàng
+Cơ khí-Chế tạo
+Công nghệ cao
+Công nghiệp
+Dầu khí-Hóa chất
+Dệt may - Da giày
+Dịch vụ
+Du lịch
+Điện tử viễn thông
+Game
+Giáo dục-Đào tạo
+Hàng gia dụng
+Hàng hải
+Hàng không
+Hoá học-Sinh học
+Hoạch định-Dự án
+In ấn-Xuất bản
+IT phần cứng/mạng
+IT phần mềm
+KD bất động sản
+Khách sạn-Nhà hàng
+Kho vận-Vật tư
+Kiến trúc-TK nội thất
+Kỹ thuật ứng dụng
+Ngân hàng
+Ngành nghề khác
+Nghệ thuật - Điện ảnh
+Ngoại thương-Xuất nhập khẩu
+Nhân sự
+Nông-Lâm-Ngư nghiệp
+Ô tô - Xe máy
+Pháp lý-Luật
+Quan hệ đối ngoại
+Quản trị kinh doanh
+Spa-Mỹ phẩm-Trang sức
+Tài chính-Đầu tư
+Thiết kế đồ hoạ web
+Thiết kế-Mỹ thuật
+Thời trang
+Thủ công mỹ nghệ
+Thư ký-Trợ lý
+Thực phẩm-Đồ uống
+Thương mại điện tử
+Tiếp thị-Quảng cáo
+Tổ chức sự kiện-Quà tặng
+Vận tải
+Y tế-Dược
+Lao động phổ thông
+Vận tải
+Bán hàng
+Khách sạn-Nhà hàng
+Ô tô - Xe máy
+Cơ khí-Chế tạo
+Dịch vụ
+Thực phẩm-Đồ uống
+Kỹ thuật
+An ninh-Bảo vệ
+Bảo hiểm
+Bưu chính
+Chứng khoán- Vàng
+Công nghiệp
+Dầu khí-Hóa chất
+Dệt may - Da giày
+Điện tử viễn thông
+Điện-Điện tử-Điện lạnh
+Game
+Hàng gia dụng
+Hàng hải
+Hàng không
+Hoá học-Sinh học
+In ấn-Xuất bản
+KD bất động sản
+Kho vận-Vật tư
+Kỹ thuật ứng dụng
+Làm bán thời gian
+Ngành nghề khác
+Người giúp việc
+Nhân viên kinh doanh
+Nông-Lâm-Ngư nghiệp
+NV trông quán Internet
+Promotion Girl (PG)
+Sinh viên làm thêm
+Spa-Mỹ phẩm-Trang sức
+Thiết kế-Mỹ thuật
+Thời trang
+Thủ công mỹ nghệ
+Tiếp thị-Quảng cáo
+Tổ chức sự kiện-Quà tặng
+Tư vấn
+Xây dựng
+Sinh viên làm thêm
+Làm bán thời gian
+Bán hàng
+Khách sạn-Nhà hàng
+Nhân viên kinh doanh
+Lao động phổ thông
+Hành chính-Văn phòng
+Thực phẩm-Đồ uống
+Tư vấn
+An ninh-Bảo vệ
+Báo chí-Truyền hình
+Bảo hiểm
+Biên-Phiên dịch
+Bưu chính
+Chứng khoán- Vàng
+Cơ khí-Chế tạo
+Công nghệ cao
+Công nghiệp
+Dầu khí-Hóa chất
+Dệt may - Da giày
+Dịch vụ
+Du lịch
+Điện tử viễn thông
+Điện-Điện tử-Điện lạnh
+Game
+Giáo dục-Đào tạo
+Hàng gia dụng
+Hàng hải
+Hàng không
+Hoá học-Sinh học
+Hoạch định-Dự án
+In ấn-Xuất bản
+IT phần cứng/mạng
+IT phần mềm
+KD bất động sản
+Kế toán-Kiểm toán
+Kho vận-Vật tư
+Kiến trúc-TK nội thất
+Kỹ thuật
+Kỹ thuật ứng dụng
+Marketing-PR
+Ngân hàng
+Ngành nghề khác
+Nghệ thuật - Điện ảnh
+Ngoại thương-Xuất nhập khẩu
+Người giúp việc
+Nhân sự
+Nông-Lâm-Ngư nghiệp
+NV trông quán Internet
+Ô tô - Xe máy
+Pháp lý-Luật
+Promotion Girl (PG)
+Quan hệ đối ngoại
+Spa-Mỹ phẩm-Trang sức
+Tài chính-Đầu tư
+Thiết kế đồ hoạ web
+Thiết kế-Mỹ thuật
+Thời trang
+Thủ công mỹ nghệ
+Thư ký-Trợ lý
+Thực tập
+Thương mại điện tử
+Tiếp thị-Quảng cáo
+Tổ chức sự kiện-Quà tặng
+Vận tải
+Xây dựng
+Y tế-Dược
+An Ninh / Bảo Vệ
+An toàn lao động
+Bán hàng / Kinh doanh
+Bán lẻ / Bán sỉ
+Bảo hiểm
+Bất động sản
+Biên phiên dịch
+Bưu chính viễn thông
+Chăn nuôi / Thú y
+Chứng khoán
+CNTT - Phần cứng / Mạng
+CNTT - Phần mềm
+Công nghệ sinh học
+Công nghệ thực phẩm / Dinh dưỡng
+Cơ khí / Ô tô / Tự động hóa
+Dầu khí
+Dệt may / Da giày / Thời trang
+Dịch vụ khách hàng
+Du lịch
+Dược phẩm
+Điện / Điện tử / Điện lạnh
+Đồ gỗ
+Giải trí
+Giáo dục / Đào tạo
+Hàng gia dụng / Chăm sóc cá nhân
+Hàng hải
+Hàng không
+Hành chính / Thư ký
+Hóa học
+In ấn / Xuất bản
+Kế toán / Kiểm toán
+Khoáng sản
+Kiến trúc
+Lao động phổ thông
+Lâm Nghiệp
+Luật / Pháp lý
+Môi trường
+Mới tốt nghiệp / Thực tập
+Mỹ thuật / Nghệ thuật / Thiết kế
+Ngân hàng
+Nhà hàng / Khách sạn
+Nhân sự
+Nội ngoại thất
+Nông nghiệp
+Phi chính phủ / Phi lợi nhuận
+Quản lý chất lượng (QA/QC)
+Quản lý điều hành
+Quảng cáo / Đối ngoại / Truyền Thông
+Sản xuất / Vận hành sản xuất
+Tài chính / Đầu tư
+Thống kê
+Thu mua / Vật tư
+Thủy lợi
+Thủy sản / Hải sản
+Thư viện
+Thực phẩm & Đồ uống
+Tiếp thị / Marketing
+Tiếp thị trực tuyến
+Tổ chức sự kiện
+Trắc địa / Địa Chất
+Truyền hình / Báo chí / Biên tập
+Tư vấn
+Vận chuyển / Giao nhận /  Kho vận
+Xây dựng
+Xuất nhập khẩu
+Y tế / Chăm sóc sức khỏe
+Bảo trì / Sửa chữa
+Ngành khác
+An Ninh / Bảo Vệ
+An Toàn Lao Động
+Bán hàng
+Bán lẻ / Bán sỉ
+Báo chí / Biên tập viên / Xuất bản
+Bảo hiểm
+Bảo trì / Sửa chữa
+Bất động sản
+Biên phiên dịch / Thông dịch viên
+Biên phiên dịch (tiếng Nhật)
+Chăm sóc sức khỏe / Y tế
+CNTT - Phần cứng / Mạng
+CNTT - Phần mềm
+Dầu khí / Khoáng sản
+Dệt may / Da giày
+Dịch vụ khách hàng
+Điện lạnh / Nhiệt lạnh
+Dược / Sinh học
+Điện / Điện tử
+Đồ Gỗ
+Giáo dục / Đào tạo / Thư viện
+Hàng gia dụng
+Hóa chất / Sinh hóa / Thực phẩm
+Kế toán / Kiểm toán
+Khách sạn / Du lịch
+Kiến trúc
+Kỹ thuật ứng dụng / Cơ khí
+Lao động phổ thông
+Môi trường / Xử lý chất thải
+Mới tốt nghiệp / Thực tập
+Ngân hàng / Chứng khoán
+Nghệ thuật / Thiết kế / Giải trí
+Người nước ngoài
+Nhà hàng / Dịch vụ ăn uống
+Nhân sự
+Nội thất / Ngoại thất
+Nông nghiệp / Lâm nghiệp
+Ô tô
+Pháp lý / Luật
+Phi chính phủ / Phi lợi nhuận
+Quản lý chất lượng (QA / QC)
+Quản lý điều hành
+Quảng cáo / Khuyến mãi / Đối ngoại
+Sản xuất / Vận hành sản xuất
+Tài chính / Đầu tư
+Thời trang
+Thuỷ Hải Sản
+Thư ký / Hành chánh
+Tiếp thị
+Tư vấn
+Vận chuyển / Giao thông / Kho bãi
+Vật tư / Mua hàng
+Viễn Thông
+Xây dựng
+Xuất nhập khẩu / Ngoại thương
+Khác
+Báo chí/Biên tập
+Bảo hiểm
+Bưu chính VT
+CNTT/Tin học
+Cơ khí/Chế tạo máy
+Dầu khí/Khoáng sản
+Dệt may
+Dịch vụ
+Du lịch/Khách sạn
+Điện/điện công nghiệp
+Điện tử
+Đối ngoại
+Giải trí
+Vận chuyển/Giao nhận
+Giao thông vận tải
+Giáo dục/Đào tạo/Thư viện
+Hàng hải
+Hàng không
+Hành chính/Thư ký
+Hoá chất/Sinh học
+Kế toán/Kiểm toán
+Khoa học tự nhiên
+Kiến trúc
+Kinh doanh/Bán hàng
+Kinh tế
+Kỹ thuật ứng dụng
+Luật/Pháp lý
+Marketing/Tư vấn
+Môi trường
+Mỹ phẩm
+Mỹ thuật/Hội hoạ
+Ngân hàng/Tài chính
+Nghiên cứu thị trường
+Ngoại ngữ/Biên phiên dịch
+Ngoại thương/XNK
+Bất động sản
+Nhân sự
+Nông lâm
+Quan hệ cộng đồng
+Quản lý chất lượng
+Quảng cáo/Khuyến mãi
+Quản trị kinh doanh
+Thiết kế/Tạo mẫu
+Thời trang/Nghệ thuật
+Thủ công mỹ nghệ
+Trang trí nội thất
+Xuất bản/In ấn
+Xây dựng
+Y tế - Dược phẩm
+Ngành nghề khác
+Thực phẩm/Đồ uống
+Quản lý điều hành
+Chứng khoán
+Ôtô - Xe máy
+Bán hàng
+Biên tập/ Báo chí/ Truyền hình
+Bảo hiểm/ Tư vấn bảo hiểm
+Bảo vệ/ An ninh/ Vệ sỹ
+Phiên dịch/ Ngoại ngữ
+Bưu chính
+Chứng khoán - Vàng
+Cơ khí - Chế tạo
+Công chức - Viên chức
+Công nghệ cao
+Công nghiệp
+Dầu khí - Hóa chất
+Dệt may - Da giày
+Dịch vụ
+Du lịch
+Đầu tư
+Điện - Điện tử - Điện lạnh
+Điện tử viễn thông
+Freelance
+Games
+Giáo dục - Đào tạo
+Giao nhận/ Vận chuyển/ Kho bãi
+Hàng gia dụng
+Hàng hải
+Hàng không
+Hành chính - Văn phòng
+Hóa học - Sinh học
+Hoạch định - Dự án
+IT phần cứng/mạng
+IT phần mềm
+In ấn - Xuất bản
+Kế toán - Kiểm toán
+Khách sạn - Nhà hàng
+Kiến trúc - Thiết kế nội thất
+Bất động sản
+Kỹ thuật
+Kỹ thuật ứng dụng
+Làm bán thời gian
+Làm đẹp/ Thể lực/ Spa
+Lao động phổ thông
+Lương cao
+Marketing - PR
+Môi trường
+Mỹ phẩm - Trang sức
+Phi chính phủ/ Phi lợi nhuận
+Ngân hàng/ Tài Chính
+Ngành nghề khác
+Nghệ thuật - Điện ảnh
+Người giúp việc/ Phục vụ/ Tạp vụ
+Nhân sự
+Nhân viên kinh doanh
+Nông - Lâm - Ngư nghiệp
+Ô tô - Xe máy
+Pháp luật/ Pháp lý
+Phát triển thị trường
+Promotion Girl/ Boy (PG-PB)
+QA-QC/ Thẩm định/ Giám định
+Quan hệ đối ngoại
+Quản trị kinh doanh
+Sinh viên làm thêm
+Startup
+Thể dục/ Thể thao
+Thiết kế - Mỹ thuật
+Thiết kế đồ họa - Web
+Thời trang
+Thủ công mỹ nghệ
+Thư ký - Trợ lý
+Thực phẩm - Đồ uống
+Thực tập
+Thương mại điện tử
+Tiếp thị - Quảng cáo
+Tổ chức sự kiện - Quà tặng
+Tư vấn/ Chăm sóc khách hàng
+Vận tải - Lái xe/ Tài xế
+Nhân viên trông quán internet
+Vật tư/Thiết bị/Mua hàng
+Việc làm cấp cao
+Việc làm Tết
+Xây dựng
+Xuất - Nhập khẩu
+Xuất khẩu lao động
+Y tế - Dược
+Kinh doanh
+Bán hàng
+Chăm sóc khách hàng
+Hành chính/Thư ký/Trợ lý
+Sinh viên/Mới tốt nghiệp/Thực tập
+Lao động phổ thông
+Tài chính/Kế toán/Kiểm toán
+Quảng cáo/Marketing/PR
+Du lịch/Nhà hàng/Khách sạn
+Báo chí/Biên tập viên
+Bảo vệ/Vệ sĩ/An ninh
+Bất động sản
+Biên dịch/Phiên dịch
+Bưu chính viễn thông
+Công nghệ thông tin
+Cơ khí/Kĩ thuật ứng dụng
+Dầu khí/Địa chất
+Dệt may
+Dược/Hóa chất/Sinh hóa
+Điện/Điện tử/Điện lạnh
+Giải trí/Vui chơi
+Giáo dục/Đào tạo/Thư viện
+Giao thông/Vận tải/Thủy lợi/Cầu đường
+Giày da/Thuộc da
+Khác
+Kho vận/Vật tư/Thu mua
+Khu chế xuất/Khu công nghiệp
+Kiến trúc/Nội thất
+Làm đẹp/Thể lực/Spa
+Luật/Pháp lý
+Môi trường/Xử lý chất thải
+Mỹ phẩm
+Ngân hàng/Chứng khoán/Đầu tư
+Nghệ thuật/Điện ảnh
+Ngoại ngữ
+Nhân sự
+Nông/Lâm/Ngư nghiệp
+PG/PB/Lễ tân
+Phát triển thị trường
+Phục vụ/Tạp vụ/Giúp việc
+Quan hệ đối ngoại
+Quản lý điều hành
+Sản xuất/Vận hành sản xuất
+Tài xế/Lái xe/Giao nhận
+Thẩm định/Giám định/Quản lý chất lượng
+Thể dục/Thể thao
+Thiết kế/Mỹ thuật
+Thời vụ/Bán thời gian
+Thực phẩm/DV ăn uống
+Trang thiết bị công nghiệp
+Trang thiết bị gia dụng
+Trang thiết bị văn phòng
+Tư vấn bảo hiểm
+Xây dựng
+Xuất-Nhập khẩu/Ngoại thương
+Y tế
+Kinh doanh
+Bán hàng
+Hành chính/Thư ký/Trợ lý
+Tài chính/Kế toán/Kiểm toán
+Chăm sóc khách hàng
+Lao động phổ thông
+Cơ khí/Kĩ thuật ứng dụng
+Sinh viên/Mới tốt nghiệp/Thực tập
+Điện/Điện tử/Điện lạnh
+Báo chí/Biên tập viên
+Bảo vệ/Vệ sĩ/An ninh
+Bất động sản
+Biên dịch/Phiên dịch
+Bưu chính viễn thông
+Công nghệ thông tin
+Dầu khí/Địa chất
+Dệt may
+Du lịch/Nhà hàng/Khách sạn
+Dược/Hóa chất/Sinh hóa
+Giải trí/Vui chơi
+Giáo dục/Đào tạo/Thư viện
+Giao thông/Vận tải/Thủy lợi/Cầu đường
+Giày da/Thuộc da
+Khác
+Kho vận/Vật tư/Thu mua
+Khu chế xuất/Khu công nghiệp
+Kiến trúc/Nội thất
+Làm đẹp/Thể lực/Spa
+Luật/Pháp lý
+Môi trường/Xử lý chất thải
+Mỹ phẩm/Thời trang/Trang sức
+Ngân hàng/Chứng khoán/Đầu tư
+Nghệ thuật/Điện ảnh
+Ngoại ngữ
+Nhân sự
+Nông/Lâm/Ngư nghiệp
+PG/PB/Lễ tân
+Phát triển thị trường
+Phục vụ/Tạp vụ/Giúp việc
+Quan hệ đối ngoại
+Quản lý điều hành
+Quảng cáo/Marketing/PR
+Sản xuất/Vận hành sản xuất
+Tài xế/Lái xe/Giao nhận
+Thẩm định/Giám định/Quản lý chất lượng
+Thể dục/Thể thao
+Thiết kế/Mỹ thuật
+Thời vụ/Bán thời gian
+Thực phẩm/DV ăn uống
+Trang thiết bị công nghiệp
+Trang thiết bị gia dụng
+Trang thiết bị văn phòng
+Tư vấn bảo hiểm
+Xây dựng
+Xuất-Nhập khẩu/Ngoại thương
+Y tế
