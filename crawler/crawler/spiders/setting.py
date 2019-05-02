@@ -1,4 +1,6 @@
 import re
+import os
+DIR_PATH = os.path.dirname(os.path.realpath(__file__))
 
 MODEL_DIR = 'crawler/crawler/spiders/models'
 STANDARD_ATTRIBUTES_FN = 'crawler/crawler/spiders/utils/attributes.json'
@@ -37,6 +39,29 @@ STANDARD_ATTRIBUTES = [
     "occupationalCategory"
 ]
 
+MAPPING_LABEL_NUM = {
+    "title": '0.0',
+    "hiringOrganization_name": '1.0',
+    "datePosted": '2.0',
+    "validThrough": '3.0',
+    "jobLocation_address_addressRegion": '4.0',
+    "other": '5.0',
+    "occupationalCategory": '6.0',
+    "jobBenefits": '7.0',
+    "description": '8.0',
+    "skills": '9.0',
+    "experienceRequirements": '12.0',
+    "": '13.0',
+    "qualifications": '14.0',
+    "employmentType": '15.0',
+    "gender": '16.0',
+    "age": '17.0',
+    "jobLocation_address_addressCountry": '18.0',
+    "jobLocation_address_addressLocality": '19.0'
+}
+
+MAPPING_NUM_LABEL = {num: label for label, num in MAPPING_LABEL_NUM.items()}
+
 
 def get_schema_file(domain):
     return f'crawler/crawler/spiders/schema/{domain}_schema.json'
@@ -57,3 +82,4 @@ def get_domain(url):
         else:
             domain = 'default'
     return domain
+

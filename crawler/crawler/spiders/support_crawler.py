@@ -15,6 +15,7 @@ from utils.preprocess import FeaturesTransformer
 from utils.job_normalization import normalize_job
 from utils.utils import flatten_dict
 from utils.remove_similar_data.remove_similar_data import DataReduction
+from wrapper.xpath_mapping import XpathMapping
 from setting import *
 
 
@@ -169,26 +170,23 @@ class XpathCrawler(Spider):
 
         for attribute in STANDARD_ATTRIBUTES:
             if attribute not in matched_attributes:
-                mismatch_attributes.append(attribute)
+                mismatch_attributes.append(MAPPING_LABEL_NUM[attribute])
 
         return mismatch_attributes
 
     def get_job_sample_url(self, response):
-        job_url = response.xpath(self.context['selectors']['job_url']).get()
+        job_url = response.xpath(self.context['selectors']['job_url'] + "/@href").get()
         yield Request(url=job_url, callback=self.get_job_sample_xpath_data)
 
     def get_job_sample_xpath_data(self, response):
-        tree = etree.HTML(response.body.decode('utf8'))
-        data = []
-        for node in tree.iter():
-            data.append([node.getroottree().getpath(node), node.text])
+        data = self.get_xpath_content_data(response)
 
         # map_xpath = module(self.mismatch_attributes, data)
-        map_xpath = {}
+        map_xpath = XpathMapping(data, self.mismatch_attributes).get_xpath_mapping()
 
         job_selectors = self.context['selectors'].setdefault('job_selectors', {})
         for attribute, xpath in map_xpath.items():
-            job_selectors[attribute] = xpath
+            job_selectors[MAPPING_NUM_LABEL[attribute]] = xpath
 
         self.context['is_finished'] = True
 
@@ -198,3 +196,17 @@ class XpathCrawler(Spider):
         with open(get_context_file(self.domain), mode='w', encoding='utf8') as f:
             json.dump(self.context, f)
             f.close()
+
+    @staticmethod
+    def get_xpath_content_data(response):
+        tree = etree.HTML(response.body.decode('utf8'))
+        data = []
+
+        for node in tree.xpath('//head | //style | //script | //footer | //nav | //select | //form | //table'):
+            node.getparent().remove(node)
+
+        for node in tree.iter():
+            if node.text is not None:
+                data.append([node.getroottree().getpath(node), node.text])
+
+        return data

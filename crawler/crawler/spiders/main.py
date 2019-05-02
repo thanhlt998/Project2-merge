@@ -14,7 +14,7 @@ from setting import SCRAPY_CONFIG, get_domain
 def crawl():
     yield runner.crawl(SchemaCrawler, name="schema_crawler", start_url=start_url, job_url=job_url_selector,
                        next_page=next_page_selector, domain=domain)
-    yield runner.crawl(XpathCrawler, name="xpath_crawler", domain="domain")
+    yield runner.crawl(XpathCrawler, name="xpath_crawler", domain=domain)
 
     yield runner.crawl(Crawler, name="crawler", domain=domain)
     reactor.stop()
