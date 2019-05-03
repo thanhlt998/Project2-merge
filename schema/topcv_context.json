@@ -1,0 +1,31 @@
+{
+  "start_url": "https://www.topcv.vn/viec-lam/moi-nhat.html?utm_source=click-search-job&utm_medium=page-job&utm_campaign=tracking-job",
+  "domain": "topcv",
+  "data_format": "json+ld",
+  "schema": {
+    "datePosted": "datePosted",
+    "baseSalary_value_unitText": "baseSalary_unitText",
+    "employmentType": "employmentType",
+    "validThrough": "validThrough",
+    "baseSalary_currency": "baseSalary_currency",
+    "skills": "occupationalCategory",
+    "title": "title",
+    "hiringOrganization_name": "hiringOrganization_name",
+    "jobLocation_address_addressRegion": "jobLocation_address_addressRegion",
+    "jobLocation_address_addressCountry": "jobLocation_address_addressCountry",
+    "jobLocation_address_streetAddress": "jobLocation_address_addressLocality",
+    "baseSalary_value_minValue": "baseSalary_minValue",
+    "baseSalary_value_maxValue": "baseSalary_maxValue",
+    "description": "description"
+  },
+  "selectors": {
+    "job_url": "//*[@id='box-job-result']/div[1]/div/div/div[2]/h4/a",
+    "next_page": "//*[@id='box-job-result']/div[2]/ul/li[last()]/a",
+    "job_selectors": {
+      "jobBenefits": "/html/body/div",
+      "skills": "/html/body/div",
+      "experienceRequirements": "/html/body/div[3]/div[1]/div[4]/div[1]/div/div[2]/div[2]/div[5]/span"
+    }
+  },
+  "is_finished": true
+}

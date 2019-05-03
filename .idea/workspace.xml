@@ -3,12 +3,109 @@
   <component name="ChangeListManager">
     <list default="true" id="4e9a1ab8-c9e3-4b0f-bfd5-03b25c98b943" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler/spiders/crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler/spiders/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/items.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/middlewares.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/pipelines.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_currency/baseSalary_currency_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_currency/baseSalary_currency_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_currency/baseSalary_currency_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_unitText/baseSalary_unitText_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_unitText/baseSalary_unitText_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_unitText/baseSalary_unitText_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_value/baseSalary_value_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_value/baseSalary_value_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/baseSalary_value/baseSalary_value_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/description/description_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/description/description_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/description/description_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/employmentType/employmentType_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/employmentType/employmentType_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/employmentType/employmentType_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/experienceRequirements/experienceRequirements_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/experienceRequirements/experienceRequirements_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/experienceRequirements/experienceRequirements_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/hiringOrganization_name/hiringOrganization_name_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/hiringOrganization_name/hiringOrganization_name_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/hiringOrganization_name/hiringOrganization_name_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobBenefits/jobBenefits_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobBenefits/jobBenefits_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobBenefits/jobBenefits_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressCountry/jobLocation_address_addressCountry_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressCountry/jobLocation_address_addressCountry_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressCountry/jobLocation_address_addressCountry_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressLocality/jobLocation_address_addressLocality_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressLocality/jobLocation_address_addressLocality_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressLocality/jobLocation_address_addressLocality_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressRegion/jobLocation_address_addressRegion_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressRegion/jobLocation_address_addressRegion_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/jobLocation_address_addressRegion/jobLocation_address_addressRegion_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/occupationalCategory/occupationalCategory_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/occupationalCategory/occupationalCategory_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/occupationalCategory/occupationalCategory_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/qualifications/qualifications_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/qualifications/qualifications_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/qualifications/qualifications_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/skills/skills_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/skills/skills_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/skills/skills_nb.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/title/title_dtree.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/title/title_logistic.pickle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/models/title/title_nb.pickle" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/schema/topcv_context.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/setting.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler/spiders/setting.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py" beforeDir="false" afterPath="$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/topcv.json" beforeDir="false" afterPath="$PROJECT_DIR$/topcv1.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/setting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/attributes.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/detect_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/address.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/career.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/cities.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/address.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/address_dict.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/career.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/career_dict.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/career_set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/company_set.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/dict_preprocess/salary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/dict/load_dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/job_normalization.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/model.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/preprocess.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/remove_similar_data/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/remove_similar_data/remove_duplicate_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/remove_similar_data/remove_similar_data.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/remove_similar_data/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/test_data/mywork.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/test_data/vieclam24h.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/test_detect_schema.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/test_job.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/utils.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/weight.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/weight_nb_dtree.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/utils/weight_nb_logistic.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/Result/result1.text" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/feature_extraction/feature_test_full.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/feature_extraction/feature_train_full.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/preProcessData.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/processFile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/stopwords-nlp-vi.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/trained_model/knn_model_tfidf.pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/trained_model/logistic_model.pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/trained_model/nb_gaussian_model.pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/trained_model/random_forest_model.pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/trained_model/svm_model.pk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/vector_embedding/vector_embedding_full.pkl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/xpath_mapping.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/crawler/scrapy.cfg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/topcv.json" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +115,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/main.py">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
@@ -28,10 +125,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/setting.py">
+        <entry file="file://$PROJECT_DIR$/setting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="988">
-              <caret line="62" column="17" selection-start-line="62" selection-end-line="62" selection-end-column="17" />
+            <state relative-caret-position="802">
+              <caret line="85" selection-start-line="85" selection-end-line="85" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -40,10 +137,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py">
+        <entry file="file://$PROJECT_DIR$/support_crawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="205" column="19" selection-start-line="204" selection-start-column="8" selection-end-line="205" selection-end-column="41" />
+            <state relative-caret-position="227">
+              <caret line="197" column="69" selection-start-line="197" selection-start-column="69" selection-end-line="197" selection-end-column="69" />
               <folding>
                 <element signature="e#0#34#0" expanded="true" />
               </folding>
@@ -52,40 +149,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/job_normalization.py">
+        <entry file="file://$PROJECT_DIR$/schema/topcv_context.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
-              <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
+            <state relative-caret-position="282">
+              <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/crawler.py">
+        <entry file="file://$PROJECT_DIR$/utils/job_normalization.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-933">
-              <caret line="84" column="90" selection-start-line="84" selection-start-column="90" selection-end-line="84" selection-end-column="90" />
+            <state relative-caret-position="255">
+              <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
               <folding>
-                <element signature="e#0#34#0" expanded="true" />
+                <element signature="e#0#9#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/schema/topcv_context.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/topcv.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="57" column="2036" selection-start-line="57" selection-start-column="2030" selection-end-line="57" selection-end-column="2036" />
             </state>
           </provider>
         </entry>
@@ -108,13 +187,23 @@
       <find>yield</find>
       <find>settings</find>
       <find>settings.</find>
-      <find>experienceRequirements</find>
       <find>Exper</find>
       <find>exper</find>
       <find>job_bene</find>
       <find>job</find>
       <find>skills</find>
       <find>experi</find>
+      <find>experience</find>
+      <find>jobBenefits</find>
+      <find>Cơ khí - Chế tạo - Tự động hóa</find>
+      <find>Thiết kế đồ họa</find>
+      <find>Bưu chính - Viễn thông</find>
+      <find>Chứng kh</find>
+      <find>occupation</find>
+      <find>Kinh doanh</find>
+      <find>&quot;occupationalCategory&quot;: [&quot;Khác&quot;]</find>
+      <find>12.0</find>
+      <find>experienceRequirements</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,15 +224,21 @@
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/main.py" />
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/preProcessData.py" />
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/wrapper/processFile.py" />
-        <option value="$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py" />
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/crawler.py" />
+        <option value="$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py" />
         <option value="$PROJECT_DIR$/crawler/crawler/spiders/schema/topcv_context.json" />
+        <option value="$PROJECT_DIR$/setting.py" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/utils/dict/career.json" />
+        <option value="$PROJECT_DIR$/utils/job_normalization.py" />
+        <option value="$PROJECT_DIR$/schema/topcv_context.json" />
+        <option value="$PROJECT_DIR$/topcv.json" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
     <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -154,7 +249,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,60 +259,27 @@
             <path>
               <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
               <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Project2_merge" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Project2_merge" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="crawler" type="462c0819:PsiDirectoryNode" />
-              <item name="spiders" type="462c0819:PsiDirectoryNode" />
-              <item name="wrapper" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/crawler/crawler/spiders/wrapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../test" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Code\Project2_merge" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Code\Project2_merge\crawler\crawler\spiders\wrapper" />
       <recent name="E:\Code\Project2_merge\crawler\crawler\spiders" />
@@ -250,7 +311,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crawler/crawler/spiders/main.py" />
+      <option name="SCRIPT_NAME" value="E:\Code\Project2_merge\main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,16 +344,18 @@
       <workItem from="1556456753491" duration="15625000" />
       <workItem from="1556508977270" duration="645000" />
       <workItem from="1556813849297" duration="12130000" />
+      <workItem from="1556868923252" duration="8334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51271000" />
+    <option name="totallyTimeSpent" value="59605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27211797" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27546915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,8 +369,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.22594142" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.21896791" />
-      <window_info anchor="bottom" id="Python Console" order="12" weight="0.32914925" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.42119944" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.33193862" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -322,7 +385,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/crawler/crawler/spiders/wrapper/processFile.py</url>
+          <url>file://$PROJECT_DIR$/wrapper/processFile.py</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
@@ -332,7 +395,7 @@
     <SUITE FILE_PATH="coverage/Project2_merge$main.coverage" NAME="main Coverage Results" MODIFIED="1556397105784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/crawler/crawler/spiders" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/utils.py">
+    <entry file="file://$PROJECT_DIR$/utils/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-470">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
@@ -349,7 +412,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/schema/www_context.json" />
     <entry file="file://$PROJECT_DIR$/test.json" />
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/remove_similar_data/remove_similar_data.py">
+    <entry file="file://$PROJECT_DIR$/utils/remove_similar_data/remove_similar_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -412,14 +475,14 @@
         <state relative-caret-position="-1455" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/attributes.json">
+    <entry file="file://$PROJECT_DIR$/utils/attributes.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/model.py">
+    <entry file="file://$PROJECT_DIR$/utils/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="635">
           <caret line="49" column="41" selection-start-line="49" selection-start-column="41" selection-end-line="49" selection-end-column="41" />
@@ -432,7 +495,7 @@
     <entry file="file://$PROJECT_DIR$/crawler/scrapy.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/detect_schema.py">
+    <entry file="file://$PROJECT_DIR$/utils/detect_schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" selection-start-line="68" selection-end-line="68" />
@@ -442,14 +505,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/wrapper/settings.py">
+    <entry file="file://$PROJECT_DIR$/wrapper/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="8" column="74" lean-forward="true" selection-start-line="8" selection-start-column="74" selection-end-line="8" selection-end-column="74" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/preprocess.py">
+    <entry file="file://$PROJECT_DIR$/utils/preprocess.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -458,7 +521,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/test_detect_schema.py">
+    <entry file="file://$PROJECT_DIR$/utils/test_detect_schema.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
@@ -474,7 +537,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/wrapper/processFile.py">
+    <entry file="file://$PROJECT_DIR$/wrapper/processFile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="33" column="38" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
@@ -485,14 +548,14 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/topcv1.json">
-      <provider editor-type-id="text-editor" />
       <provider selected="true" editor-type-id="LargeFileEditor">
         <state relative-caret-position="278">
           <caret line="27" column="1767" selection-start-line="27" selection-start-column="1745" selection-end-line="27" selection-end-column="1767" />
         </state>
       </provider>
+      <provider editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/wrapper/preProcessData.py">
+    <entry file="file://$PROJECT_DIR$/wrapper/preProcessData.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
           <caret line="19" selection-start-line="19" selection-end-line="19" />
@@ -502,68 +565,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/wrapper/xpath_mapping.py">
+    <entry file="file://$PROJECT_DIR$/wrapper/xpath_mapping.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/utils/job_normalization.py">
+    <entry file="file://$PROJECT_DIR$/crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
-          <caret line="38" column="52" selection-start-line="38" selection-start-column="52" selection-end-line="38" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/support_crawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="205" column="19" selection-start-line="204" selection-start-column="8" selection-end-line="205" selection-end-column="41" />
+        <state relative-caret-position="181">
+          <caret line="112" column="39" selection-start-line="112" selection-start-column="39" selection-end-line="112" selection-end-column="39" />
           <folding>
             <element signature="e#0#34#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/setting.py">
+    <entry file="file://$PROJECT_DIR$/support_crawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="988">
-          <caret line="62" column="17" selection-start-line="62" selection-end-line="62" selection-end-column="17" />
+        <state relative-caret-position="227">
+          <caret line="197" column="69" selection-start-line="197" selection-start-column="69" selection-end-line="197" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#34#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/setting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="802">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
           <folding>
             <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/main.py">
+    <entry file="file://$PROJECT_DIR$/utils/dict/career.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+        <state relative-caret-position="112">
+          <caret line="154" column="47" selection-start-line="154" selection-start-column="37" selection-end-line="154" selection-end-column="47" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/crawler.py">
+    <entry file="file://$PROJECT_DIR$/utils/job_normalization.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-933">
-          <caret line="84" column="90" selection-start-line="84" selection-start-column="90" selection-end-line="84" selection-end-column="90" />
+        <state relative-caret-position="255">
+          <caret line="15" column="59" selection-start-line="15" selection-start-column="59" selection-end-line="15" selection-end-column="59" />
           <folding>
-            <element signature="e#0#34#0" expanded="true" />
+            <element signature="e#0#9#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/crawler/crawler/spiders/schema/topcv_context.json">
+    <entry file="file://$PROJECT_DIR$/schema/topcv_context.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="24" selection-start-line="1" selection-start-column="24" selection-end-line="1" selection-end-column="24" />
+        <state relative-caret-position="282">
+          <caret line="26" column="7" lean-forward="true" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="195" lean-forward="true" selection-start-line="3" selection-start-column="195" selection-end-line="4" selection-end-column="53" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/topcv.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="57" column="2036" selection-start-line="57" selection-start-column="2030" selection-end-line="57" selection-end-column="2036" />
+        <state relative-caret-position="220">
+          <caret line="192" selection-start-line="192" selection-end-line="192" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
         </state>
       </provider>
     </entry>
