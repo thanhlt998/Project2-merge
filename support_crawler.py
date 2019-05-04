@@ -156,8 +156,9 @@ class XpathCrawler(Spider):
                 self.context = json.load(f)
                 f.close()
 
-            self.mismatch_attributes = self.get_mismatch_attributes()
-            yield Request(url=self.context['start_url'], callback=self.get_job_sample_url)
+            if not self.context['is_finished']:
+                self.mismatch_attributes = self.get_mismatch_attributes()
+                yield Request(url=self.context['start_url'], callback=self.get_job_sample_url)
         else:
             raise Exception('Not exist context file: ' + get_context_file(self.domain))
 

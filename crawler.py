@@ -24,8 +24,14 @@ class Crawler(Spider):
     parse_job = None
 
     custom_settings = {
-        'FEED_FORMAT': 'json',
-        'FEED_URI': 'topcv.json'
+        # 'FEED_FORMAT': 'json',
+        # 'FEED_URI': 'topcv.json',
+        'ITEM_PIPELINES': {
+            'pipelines.MongoPipeline': 300
+        },
+        'MONGO_URI': MONGO_URI,
+        'MONGO_DATABASE': MONGO_DATABASE,
+        'MONGO_COLLECTION': MONGO_COLLECTION
     }
 
     def __init__(self, name=None, **kwargs):

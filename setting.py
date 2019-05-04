@@ -6,17 +6,26 @@ MODEL_DIR = 'models'
 STANDARD_ATTRIBUTES_FN = os.path.join(DIR_PATH, 'utils/attributes.json')
 WEIGHT_MODEL_FN = os.path.join(DIR_PATH, 'utils/weight.json')
 MAX_NO_SAMPLES = 20
+
+MONGO_URI = 'mongodb://localhost:27017/'
+MONGO_DATABASE = 'recruitment_information'
+MONGO_COLLECTION = 'job_information'
+
 SCRAPY_CONFIG = {
     'DUPEFILTER_CLASS': 'scrapy.dupefilters.BaseDupeFilter',
     'DEPTH_PRIORITY': 1,
     'SCHEDULER_DISK_QUEUE': 'scrapy.squeues.PickleFifoDiskQueue',
     'SCHEDULER_MEMORY_QUEUE': 'scrapy.squeues.FifoMemoryQueue',
     'FEED_EXPORT_ENCODING': 'utf-8',
+    # 'ITEM_PIPELINES': {
+    #     'pipelines.MongoPipeline': 300
+    # },
+    # 'MONGO_URI': MONGO_URI,
+    # 'MONGO_DATABASE': MONGO_DATABASE,
+    # 'MONGO_COLLECTION': MONGO_COLLECTION
 }
 
-MONGO_URI = 'mongodb://localhost:27017/'
-MONGO_DATABASE = 'recruitment_information'
-MONGO_COLLECTION = 'job_information1'
+
 
 STANDARD_ATTRIBUTES = [
     "title",
