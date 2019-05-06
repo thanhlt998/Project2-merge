@@ -63,12 +63,12 @@ class Crawler(Spider):
         job_urls = response.xpath(self.context['selectors']['job_url'] + '/@href').getall()
 
         for job_url in job_urls:
-            job_url = response.urljoin(job_url)
-            yield Request(url=job_url, callback=self.parse_job)
+            # job_url = response.urljoin(job_url)
+            yield Request(url=get_correct_url(job_url, response), callback=self.parse_job)
 
         if next_page is not None:
             next_page = response.urljoin(next_page)
-            yield Request(url=next_page, callback=self.parse)
+            yield Request(url=get_correct_url(next_page, response), callback=self.parse)
 
     def parse_job_json(self, response):
         job_url = response.request.url

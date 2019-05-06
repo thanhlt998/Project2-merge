@@ -53,7 +53,7 @@ class SchemaCrawler(Spider):
 
     def get_data_format(self, response):
         sample_job_url = response.xpath(self.selectors['job_url'] + '/@href').get()
-        yield Request(url=sample_job_url, callback=self.decide_data_format)
+        yield Request(url=get_correct_url(sample_job_url, response), callback=self.decide_data_format)
 
     def decide_data_format(self, response):
         can_crawl = True
@@ -76,9 +76,9 @@ class SchemaCrawler(Spider):
         job_urls += response.xpath(self.selectors['job_url'] + '/@href').getall()
 
         if next_page is not None and len(job_urls) < MAX_NO_SAMPLES:
-            yield Request(url=next_page, callback=self.get_job_url_samples, meta={'job_urls': job_urls})
+            yield Request(url=get_correct_url(next_page, response), callback=self.get_job_url_samples, meta={'job_urls': job_urls})
         else:
-            yield Request(url=job_urls[0], callback=self.get_job_sample, meta={'job_urls': job_urls[1:MAX_NO_SAMPLES]})
+            yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample, meta={'job_urls': job_urls[1:MAX_NO_SAMPLES]})
 
     def decide_schema(self):
         schema = JobSchemaDetection(self.samples, MODEL_DIR, STANDARD_ATTRIBUTES_FN,
@@ -96,7 +96,7 @@ class SchemaCrawler(Spider):
         samples += self.get_json_from_response_json(response)
 
         if len(job_urls) > 0:
-            yield Request(url=job_urls[0], callback=self.get_job_sample_json,
+            yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_json,
                           meta={'samples': samples, 'job_urls': job_urls[1:]})
         else:
             self.samples = samples
@@ -108,7 +108,7 @@ class SchemaCrawler(Spider):
         samples.append(self.get_json_from_response_microdata(response))
 
         if len(job_urls) > 0:
-            yield Request(url=job_urls[0], callback=self.get_job_sample_microdata,
+            yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_microdata,
                           meta={'samples': samples, 'job_urls': job_urls[1:]})
         else:
             self.samples = samples
@@ -177,7 +177,7 @@ class XpathCrawler(Spider):
 
     def get_job_sample_url(self, response):
         job_urls = response.xpath(self.context['selectors']['job_url'] + "/@href").getall()
-        yield Request(url=job_urls[0], callback=self.get_job_sample_xpath_data, meta={'job_urls': job_urls[1:5]})
+        yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_xpath_data, meta={'job_urls': job_urls[1:5]})
 
     def get_job_sample_xpath_data(self, response):
         data = self.get_xpath_content_data(response)
@@ -195,7 +195,7 @@ class XpathCrawler(Spider):
 
             self.save_context()
         else:
-            yield Request(url=job_urls[0], callback=self.get_job_sample_xpath_data,
+            yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_xpath_data,
                           meta={'data': data, 'job_urls': job_urls[1:]})
 
     def save_context(self):
