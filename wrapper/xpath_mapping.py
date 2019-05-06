@@ -17,7 +17,7 @@ class XpathMapping:
         self.list_xpath_content = list_xpath_content
         self.list_mismatch_attribute = list_mismatch_attribute
 
-        with open(LOGISTIC_MODEL, 'rb') as f:
+        with open(SVM_MODEL, 'rb') as f:
             self.classifier = pickle.load(f)
             f.close()
 

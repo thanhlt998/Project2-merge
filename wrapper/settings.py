@@ -7,3 +7,4 @@ STOP_WORDS = os.path.join(DIR_PATH, 'stopwords-nlp-vi.txt')
 SPECIAL_CHARACTER = '0123456789%@$.,=+-!;/()*"&^:#|\n\t\''
 DICTIONARY_PATH = 'dictionary.txt'
 LOGISTIC_MODEL = os.path.join(DIR_PATH, 'trained_model/logistic_model.pk')
+SVM_MODEL = os.path.join(DIR_PATH, 'trained_model/svm_model.pk')
