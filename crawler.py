@@ -76,11 +76,13 @@ class Crawler(Spider):
         job_selectors = self.context['selectors']['job_selectors']
         for job in jobs:
             job = self.change_to_right_form(job)
-            for field, selector in job_selectors.items():
-                job[field] = ','.join(
-                    text.strip() for text in response.xpath(selector + '/text()').getall() if text is not None)
-            job = self.normalize(job, job_url)
-            yield job
+            if job_selectors is not None:
+                for field, selector in job_selectors.items():
+                    print(selector)
+                    job[field] = ','.join(
+                        text.strip() for text in response.xpath(selector + '/text()').extract() if text is not None)
+                job = self.normalize(job, job_url)
+                yield job
 
     def parse_job_microdata(self, response):
         job_url = response.request.url
@@ -88,11 +90,13 @@ class Crawler(Spider):
         job_selectors = self.context['selectors']['job_selectors']
         for job in jobs:
             job = self.change_to_right_form(job)
-            for field, selector in job_selectors.items():
-                job[field] = ','.join(
-                    text.strip() for text in response.xpath(selector + '/text()').getall() if text is not None)
-            job = self.normalize(job, job_url)
-            yield job
+            if job_selectors is not None:
+                for field, selector in job_selectors.items():
+                    print(selector)
+                    job[field] = ','.join(
+                        text.strip() for text in response.xpath(selector + '/text()').extract() if text is not None)
+                job = self.normalize(job, job_url)
+                yield job
 
     @staticmethod
     def get_json_from_response_json(response):

@@ -172,12 +172,11 @@ class XpathCrawler(Spider):
         for attribute in STANDARD_ATTRIBUTES:
             if attribute not in matched_attributes:
                 mismatch_attributes.append(MAPPING_LABEL_NUM[attribute])
-
         return mismatch_attributes
 
     def get_job_sample_url(self, response):
-        job_urls = response.xpath(self.context['selectors']['job_url'] + "/@href").getall()
-        yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_xpath_data, meta={'job_urls': job_urls[1:5]})
+        job_urls = response.xpath(self.context['selectors']['job_url'] + "/@href").extract()
+        yield Request(url=get_correct_url(job_urls[0], response), callback=self.get_job_sample_xpath_data, meta={'job_urls': ''})
 
     def get_job_sample_xpath_data(self, response):
         data = self.get_xpath_content_data(response)
@@ -186,7 +185,8 @@ class XpathCrawler(Spider):
         if len(job_urls) == 0:
             # map_xpath = module(self.mismatch_attributes, data)
             map_xpath = XpathMapping(data, self.mismatch_attributes).get_xpath_mapping()
-
+            print("ng")
+            print(map_xpath)
             job_selectors = self.context['selectors'].setdefault('job_selectors', {})
             for attribute, xpath in map_xpath.items():
                 job_selectors[MAPPING_NUM_LABEL[attribute]] = xpath

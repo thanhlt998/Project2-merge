@@ -38,11 +38,12 @@ class XpathMapping:
                 result1.append([result_label[j], xpath])
             j += 1
         print(result1)
-        result = self.combine_xpath(result1)
+        result = self.combineXpath(result1)
+        print(result)
         return result
-    @staticmethod
-    def combineXpath(list_xpath):
-        result = []
+
+    def combineXpath(self, list_xpath):
+        result = {}
         labels = ['0.0', '1.0', '2.0', '3.0', '4.0', '5.0', '6.0', '7.0', '8.0', '9.0', '10.0', '11.0', '12.0', '13.0','14.0', '15.0', '16.0', '17.0', '18.0', '19.0']
         for label in labels:
             xpaths = [list_xpath[i][1] for i in range(len(list_xpath)) if list_xpath[i][0] == label]
@@ -51,20 +52,21 @@ class XpathMapping:
                 xpathArray = []
                 for xpath in xpaths:
                     xpathArray.append([x for x in str(xpath).split('/') if x.strip()])
-                xpathMerge = mergeXpaths(xpathArray)
-                result.append([label, xpathMerge])
-            elif len(xpaths) ==1:
-                result.append([label, xpaths[0]])
+                xpathMerge = self.mergeXpaths(xpathArray)
+                result[label] = xpathMerge
+            elif len(xpaths) == 1:
+                result[label] = xpaths[0]
+        print(result)
         return result
-    @staticmethod
-    def mergeXpaths(xpathArray):
+
+    def mergeXpaths(self,xpathArray):
         result = ''
         while len(xpathArray) > 0:
             tags = [i[0] for i in xpathArray if len(i) > 0]
             if len(tags) <= 1:
                 break
             if len(tags) > 1:
-                tagMostAppear = getMostAppear(tags)
+                tagMostAppear = self.getMostAppear(tags)
                 numberAppear = tags.count(tagMostAppear)
                 if numberAppear > 1:
                     xpathArray = [i for i in xpathArray if len(i) > 0 and i[0] == tagMostAppear]
@@ -74,12 +76,13 @@ class XpathMapping:
                 else:
                     for x in xpathArray:
                         x.pop(0)
-                    stringCompare = compareStrings(tags)
+                    stringCompare = self.compareStrings(tags)
                     if stringCompare != '':
-                        result = result + '/' + compareStrings(tags)
+                        result = result + '/' + self.compareStrings(tags)
         return result
-    @staticmethod
-    def compareStrings(strings):
+
+
+    def compareStrings(self,strings):
         result = ''
         if len(strings) <= 1:
             return result
@@ -88,7 +91,7 @@ class XpathMapping:
             return result
         while len(strings) > 0:
             characters = [c[0] for c in strings if len(c) > 0]
-            characterMostAppear = getMostAppear(characters)
+            characterMostAppear = self.getMostAppear(characters)
             numberAppear = characters.count(characterMostAppear)
             if numberAppear <= 1:
                 break
@@ -97,6 +100,7 @@ class XpathMapping:
             result = result + characterMostAppear
         result = result.replace('[','')
         return result
+
     @staticmethod
     def getMostAppear(strings):
         result = max(strings, key = strings.count)
